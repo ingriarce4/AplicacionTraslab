@@ -1,0 +1,265 @@
+/*
+fondo gris oscuro: #414143;
+AMARILLO: #F4B500;
+gris claro: #DCDDDF;
+*/
+/* *******index.html********/
+.inicio{
+	background-color: #414143;
+}
+
+.inicio h1{
+	color: #F4B500;
+}
+
+.index-first{
+	padding-top: 120px;
+}
+
+.input-lg,
+.input-group-addon {
+	border-radius: 0;
+}
+
+.inicio h1{
+	font-weight: bold;
+	font-size: 38px;
+	margin-bottom: 50px;
+}
+
+.inicio img{
+	margin-bottom: 20px;
+}
+
+.btn-iniciar{
+	background-color: #F4B500;
+    color: #fff;
+    width: 100%;
+    margin-left:0;
+    margin-right:0;
+    padding: 20px 0;
+    display:block;
+    text-align:center;
+}
+
+.red{
+	color: #F4B500;
+}
+
+/* *******menu.html sidenav********/
+.menu,
+.perfil{
+	background-color: #DCDDDF;
+}
+
+.menu-bar{
+	background-color: #414143;
+    color: #414143;
+    width: 100%;
+    margin-left:0;
+    margin-right:0;
+    padding: 20px 0;
+    display:block;
+}
+
+.menu-bar i,
+.menu-bar span{
+	color: #fff;
+}
+
+.menu-bar span{
+	font-size: 18px;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 40px;
+}
+
+.sidenav .btn-cerrar {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    color: #F4B500;
+}
+
+.sidenav a {
+    padding: 15px 8px 15px 32px;
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+    display: block;
+    /*transition: 0.3s;*/
+}
+
+.sidenav .fa-menu{
+	margin-right: 15px;
+	color: #F4B500;
+}
+
+/* *******FIN menu.html sidenav********/
+
+.btn-menu{
+	background-color: #F4B500;
+    color: #fff;
+    width: 100%;
+    margin-left:0;
+    margin-right:0;
+    padding: 15px 0;
+    margin-bottom: 10px;
+    display:block;
+    text-align:center;
+}
+
+.menu-margin{
+	margin-top: 160px;
+}
+
+/* **************perfil.html******************* */
+
+.foto-perfil{
+	border-radius: 50%;
+}
+
+.perfil-amarillo{
+	background-color: #F4B500;
+	padding: 20px 0;
+}
+
+.row-profile{
+	margin: 0;
+	padding: 0;
+}
+
+.correo-storage{
+	padding: 10px;
+	background-color: #fff;
+	border-radius: 3px;
+	margin-top: 30px;
+}
+
+.contenerdor-input-tarjeta{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#input-tarjeta{
+	width: 100%;
+	line-height: 40px;
+	background-color: transparent;
+	border: none;
+	border-bottom: 1px solid #414143;
+	outline: none;
+	margin: 20px 15 20 15;
+}
+
+.btn-agregar{
+	background-color: #F4B500;
+    color: #fff;
+    width: 100%;
+    margin-left:0;
+    margin-right:0;
+    padding: 15px 0;
+    margin-bottom: 10px;
+    display:block;
+    text-align:center;
+    margin-top: 10px;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+.div-numeros{
+	padding: 10px;
+	background-color: #fff;
+	border-radius: 3px;
+	margin-bottom: 5px;
+}
+
+/* **********faq.html ************* */
+.fondo-amarillo{
+	background-color: #F4B500;
+	padding: 30px 0;
+}
+
+.fondo-amarillo h4{
+	color: #fff;
+}
+
+.cajitas{
+	margin-top: 40px;
+}
+
+/* *****************saldo.html******************* */
+
+.saldo-total{
+	background-color: #414143;
+	color: #fff;
+}
+
+.monto{
+	background-color: #F4B500;
+	padding: 15px 0;
+}
+
+.contenerdor-input-tarjeta2{
+	margin-bottom: 15px;
+}
+
+#input-tarjeta2,
+#input-tarjeta3{
+	width: 100%;
+	line-height: 40px;
+	background-color: transparent;
+	border: none;
+	border-bottom: 1px solid #414143;
+	outline: none;
+	margin: 20px 15 20 15;
+}
+
+#container-saldo{
+	margin-top: 50px;
+}
+
+.contenerdor-select-tarjeta,
+.contenerdor-input-tarjeta,
+.contenerdor-select-tarjeta2,
+.contenerdor-input-tarjeta2{
+	position: relative;
+}
+
+.select-div-disable,
+.input-div-disable,
+.select-div-disable2,
+.input-div-disable2{
+	position: absolute;
+	left:0; 
+	right:0; 
+	top:0; 
+	bottom:0; 
+	cursor: pointer;
+	display: none;
+}
+
+#container-horario-costo{
+	margin-bottom: 15px;
+}
+
+#btn-calcular{
+	margin-bottom: 40px;
+}
+
+.monto{
+	font-size: 20px;
+	color: #fff;
+	font-weight: bold;
+}
